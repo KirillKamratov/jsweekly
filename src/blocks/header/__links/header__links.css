@@ -1,0 +1,8 @@
+.header__links {
+  margin: 75px 23px 24px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 890px;
+}
