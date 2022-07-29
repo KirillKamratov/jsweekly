@@ -8,3 +8,13 @@
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__links/header__links.css";
 @import "../blocks/header/__link/header__link.css";
+
+@import "../blocks/main/main.css";
+
+@import "../blocks/data/data.css";
+@import "../blocks/data/__item-name/data__item-name.css";
+@import "../blocks/data/__item-value/data__item-value.css";
+
+@import "../blocks/progress/progress.css";
+@import "../blocks/progress/__percentage/progress__percentage.css";
+@import "../blocks/progress/__bar/progress__bar.css";

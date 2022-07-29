@@ -27,5 +27,80 @@
     </nav>
 
   </header>
+
+  <main class="main">
+    <section class="data">
+
+      <div class="data__item" id="date">
+        <p class="data__item-name">
+          Сегодня:
+        </p>
+
+        <p class="data__item-value">
+          26.07.2022
+          <br>
+          Вторник
+        </p>
+      </div>
+
+      <div class="data__item" id="time">
+        <p class="data__item-name">
+          Время:
+        </p>
+
+        <p class="data__item-value">
+          23:08 (GMT+3&nbsp;Москва)
+        </p>
+      </div>
+
+      <div class="data__item" id="current-activity">
+        <p class="data__item-name">
+          Сейчас по&nbsp;плану:
+        </p>
+
+        <p class="data__item-value">
+          Программирование
+        </p>
+      </div>
+
+      <div class="data__item" id="next-activity">
+        <p class="data__item-name">
+          Дальше по&nbsp;плану
+        </p>
+
+        <p class="data__item-value">
+          Сон
+        </p>
+      </div>
+
+      <div class="data__item" id="time-left">
+        <p class="data__item-name">
+          Осталось:
+        </p>
+
+        <p class="data__item-value">
+          01:30:30
+        </p>
+      </div>
+
+    </section>
+
+    <section class="progress">
+
+      <img src="<%=require('./images/TimeBar.svg')%>"
+           alt="Прогресс бар"
+           class="progress__bar"
+      >
+
+      <p class="progress__percentage">Завершено на 76%</p>
+
+      <img src="<%=require('./images/Pause.svg')%>"
+           alt="Кнопка паузы"
+           class="progress__pause"
+      >
+
+    </section>
+
+  </main>
 </body>
 </html>
