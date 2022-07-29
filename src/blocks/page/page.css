@@ -1,6 +1,8 @@
 .page {
   background-color: #FFD600;
   font-family: 'Inter', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
   display: flex;
